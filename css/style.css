@@ -10,16 +10,15 @@ color thème : #4b0d0d / #3c9ba6 / #f2f2f2 / #737373 / #404040 */
 
 
 }
-/* body{ */
+/* body{
     background-image: url(../img/img-fond5);
     background-size: cover; 
+} */
 
-}
-
-section{
+/* section{
 
     width: 60% !important;
-}
+} */
 
 .navigation{
     background-color: #737373;
