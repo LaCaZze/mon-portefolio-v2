@@ -1,0 +1,88 @@
+
+/* 
+color thème : #4b0d0d / #3c9ba6 / #f2f2f2 / #737373 / #404040 */
+.test{
+    color: #4b0d0d;
+    color: #3c9ba6;
+    color: #f2f2f2;
+    color: #737373;
+    color: #404040;
+
+
+}
+/* body{ */
+    background-image: url(../img/img-fond5);
+    background-size: cover; 
+
+}
+
+section{
+
+    width: 60% !important;
+}
+
+.navigation{
+    background-color: #737373;
+}
+
+.section1{
+    background-color: #f2f2f2;
+
+}
+
+.section{
+    background-color: #f2f2f2;
+}
+
+h1{
+    color: #3c9ba6;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.police-text{
+    font-size: 20px;
+    color: #4b0d0d;
+
+}
+
+.dates-parcours{
+    color: #4b0d0d;
+    font-weight: bold;
+}
+
+.bloc-parcours{
+    background-color: #737373;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.icon{
+    font-size: 100px;
+    color: #4b0d0d;
+} 
+
+.icon-contact{
+    font-size: 40px;
+    color: #404040;
+
+}
+.mail-contact{
+    color: grey;
+}
+
+footer{
+    height: 60px;
+    background-color: #737373;
+
+}
+
+
+strong{
+    color: #4b0d0d;
+    font-weight: bold;
+}
+
+
+/* header{
+    background-color: blueviolet;
+} */
