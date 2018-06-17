@@ -7,4 +7,8 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: $(page).offset().top }, speed); // Go
         return false;
     });
+	
+	    // $('#profil').parallax("center", 300, 0.1, true);
+
+
 });

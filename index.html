@@ -10,10 +10,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -22,10 +22,10 @@
 
     <header class="container-fluid">
         <div class="fixed-top">
-            <div class="navbar-light navbar-1 white navigation">
-                <ul class="nav nav-pills nav-fill">
+            <div class=" navigation">
+                <ul class="container nav nav-pills justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#profil">PROFILE</a>
+                        <a class="nav-link text-light" href="#profil">PROFIL</a>
                     </li>
                     <li class="nav-item">
                         <a class="js-scrollTo nav-link text-light" href="#competences">COMPETENCES</a>
@@ -48,32 +48,32 @@
 
     <!-- section 1 présentation général -->
 
-    <section class="container section1 mt-2 text-center rounded">
+    <section class="container mt-2 text-center rounded">
         <div class="jumbotron bg-transparent">
-            <h1 class="display-3">Welcome</h1>
-            <p class="lead police-text">Michaël ISSALY developpeur web Junior</p>
+            <h1 class="display-3">Michaël ISSALY </h1>
+            <p class="lead police-text-jumbotron">developpeur web Junior</p>
         </div>
     </section>
 
     <!-- section 2 : Mon profil -->
 
-    <section class="container section rounded pb-4 pt-5" id="profil">
+    <section class="container-fluid rounded pb-4 pt-5" id="profil">
+        <div class="container index">
+            <h1 class="text-center pt-4 ">PROFIL</h1>
 
-        <h1 class="text-center pt-4">PROFILE</h1>
-
-        <article class="row d-flex justify-content-center pt-3">
-            <p class="police-text col-lg-8">Bonjour, je m'appelle Michaël ISSALY j'ai 30 ans. Grace à une forte
-                <strong> motivation</strong>, je suis en pleine reconversion professionnelle pour devenir
-                <strong> développeur web </strong> afin de pouvoir concrétiser, via le WEB mes idées et si vous le voulez, pourquoi
-                pas les votres !
-            </p>
-        </article>
-
+            <article class="justify-content-center pt-3">
+                <p class="police-text">Bonjour, je m'appelle Michaël ISSALY j'ai 30 ans. Grace à une forte
+                    <strong> motivation</strong>, je suis en pleine reconversion professionnelle pour devenir
+                    <strong> développeur web </strong> afin de pouvoir concrétiser, via le WEB mes idées et si vous le voulez, pourquoi
+                    pas les votres !
+                </p>
+            </article>
+        </div>
     </section>
 
     <!-- section 3 : Mes compétences -->
 
-    <section class="container section mt-4 rounded pb-4 pt-5" id="competences">
+    <section class="container mt-4 rounded pb-4 pt-5" id="competences">
 
         <h1 class="text-center pt-4">COMPETENCES</h1>
         <div class="">
@@ -102,13 +102,13 @@
 
     <!-- section 4 : Mon parcours -->
 
-    <section class="container section mt-4 rounded pb-4 pt-5" id="parcours">
+    <section class="container-fluid section mt-4 rounded pb-4 pt-5" id="parcours">
 
         <h1 class="text-center pt-4">PARCOURS</h1>
 
         <div class="row ">
             <div class="col col-lg-3 col-md-3 col-sm-1"></div>
-            <div class="bloc-parcours text-light col col-lg-6 col-md-6 text-center">
+            <div class="bloc-parcours@ col col-lg-6 col-md-6 text-center">
                 <h4 class="dates-parcours mt-3">2016 / 2017</h4>
                 <p>Responsable bureau d'étude télécoms</p>
                 <div class="col col-lg-3 col-md-3 col-sm-1"></div>
@@ -116,7 +116,7 @@
         </div>
         <div class="row mt-3">
             <div class=" col col-lg-3 col-md-3 col-sm-1"></div>
-            <div class="bloc-parcours text-light col col-lg-6 col-md-6 text-center">
+            <div class="bloc-parcours col col-lg-6 col-md-6 text-center">
                 <h4 class="dates-parcours mt-3">2015 / 2016</h4>
                 <p>Dessinateur bureau d'étude télécoms</p>
                 <div class="col col-lg-3 col-md-3 col-sm-1"></div>
@@ -124,7 +124,7 @@
         </div>
         <div class="row mt-3">
             <div class=" col col-lg-3 col-md-3 col-sm-1"></div>
-            <div class="bloc-parcours text-light col col-lg-6 col-md-6 text-center">
+            <div class="bloc-parcours col col-lg-6 col-md-6 text-center">
                 <h4 class="dates-parcours mt-3">2014</h4>
                 <p>Dessinateur électrique</p>
                 <div class="col col-lg-3 col-md-3 col-sm-1"></div>
@@ -132,7 +132,7 @@
         </div>
         <div class="row mt-3">
             <div class=" col col-lg-3 col-md-3 col-sm-1"></div>
-            <div class="bloc-parcours text-light col col-lg-6 col-md-6 text-center">
+            <div class="bloc-parcours col col-lg-6 col-md-6 text-center">
                 <h4 class="dates-parcours mt-3">2011 / 2013</h4>
                 <p>BTS électrotechnique en alternace</p>
                 <div class="col col-lg-3 col-md-3 col-sm-1"></div>
@@ -140,7 +140,7 @@
         </div>
         <div class="row mt-3">
             <div class=" col col-lg-3 col-md-3 col-sm-1"></div>
-            <div class="bloc-parcours text-light col col-lg-6 col-md-6 text-center">
+            <div class="bloc-parcours col col-lg-6 col-md-6 text-center">
                 <h4 class="dates-parcours mt-3">2010 / 2011</h4>
                 <p>Bacalauréat STI génie électrotechnique</p>
                 <div class="col col-lg-3 col-md-3 col-sm-1"></div>
@@ -151,7 +151,7 @@
 
     <!-- section 5 : Mes expériences -->
 
-    <section class="container section mt-4 rounded pb-4" id="experiences">
+    <section class="container mt-4 rounded pb-4" id="experiences">
 
         <h1 class="text-center pt-4">EXPERIENCES</h1>
 
@@ -163,15 +163,16 @@
 
     <!-- section 6 : Contact -->
 
-    <section class="container section mt-4 rounded pb-4 pt-5" id="contact">
+    <section class="container-fluid section mt-4 rounded pb-4 pt-5" id="contact">
 
         <h1 class="text-center pt-4">CONTACT</h1>
-        <div class="row justify-content-center">
-            <div class="mx-auto">
-                <i class="icon-contact fas fa-envelope"></i> |
-                <a href="mailto:michaelissaly@gmail.com" class="mail-contact"> michaelissaly@gmail.com</a>
+        <div class="row text-center">
+            <div class="col-12">
+                <a href="mailto:michaelissaly@gmail.com" class="mail-contact">
+                    <i class="icon-contact fas fa-envelope"></i>
+                </a>
             </div>
-            <div class="mx-auto">
+            <div class="col-12">
                 <a href="https://github.com/LaCaZze" target="_blanc">
                     <i class=" icon-contact fab fa-github"></i>
                 </a>
@@ -196,14 +197,14 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous">
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+    <script type="text/javascript" src="script/jquery.parallax-1.1.js"></script>
     <script src="js/script.js"></script>
 </body>
 

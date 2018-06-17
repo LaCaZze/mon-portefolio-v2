@@ -16,13 +16,16 @@ color thème : #4b0d0d / #3c9ba6 / #f2f2f2 / #737373 / #404040 */
 } */
 
 /* section{
-
+    background-image: url(../img/img-fond5);
     width: 60% !important;
 } */
 
+
 .navigation{
-    background-color: #737373;
+    background-color: #4b0d0d;
+    text-align: center;
 }
+
 
 .section1{
     background-color: #f2f2f2;
@@ -38,10 +41,33 @@ h1{
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
 }
+
+.police-text-jumbotron{
+    font-size: 50px;
+    margin-top: -37px;
+    color: #4b0d0d;
+    font-weight: 100;
+}
+
 .police-text{
     font-size: 20px;
     color: #4b0d0d;
+    font-weight: 200;
+    mix-blend-mode: difference;
 
+}
+
+#profil{
+    position: relative;
+    background-image: url(../img/img-fond.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    filter: opacity(75%);
+}
+
+.index{
+    position: relative;
+    z-index: 3;
 }
 
 .dates-parcours{
@@ -50,7 +76,6 @@ h1{
 }
 
 .bloc-parcours{
-    background-color: #737373;
     font-family: 'Ubuntu', sans-serif;
 
 }
