@@ -63,6 +63,7 @@ h1{
     background-size: cover;
     background-attachment: fixed;
     filter: opacity(75%);
+    height: 350px;
 }
 
 
